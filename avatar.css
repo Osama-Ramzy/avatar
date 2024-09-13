@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital@1&display=swap');
+*{
+ font-family: "Ubuntu",sans-serif;;
+ padding: 0;
+ margin: 0;
+}
+body{
+ background: linear-gradient(to right,#01022d 30%,#000);
+ height: 100vh;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.container{
+ background-image: 
+ linear-gradient(to right,#01022de4,#00000080),
+ url(bg.webp);
+ width: 90%;
+ height: 640px;
+ background-position: center;
+}
+.container:hover {
+ background-image:
+  linear-gradient(to right, #01022de4, transparent),
+  url(bg.webp);
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
+header .logo{
+ color: aliceblue;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 30px;
+}
+header ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+
+}
+header ul li a{
+ color: aliceblue;
+ text-decoration:transparent ;
+}
+header ul li a:hover {
+ color: aliceblue;
+ text-decoration: underline 2px solid white ;
+}
+div{
+ 
+ width: 50%;
+ margin-top: 60px;
+ height: 700px;
+ padding: 30px;
+}
+div h2{
+ color:aliceblue ;
+ text-transform: uppercase;
+ font-size: 90px;
+ padding: 30px;
+}
+div p{
+ color: aliceblue;
+ width: 350px;
+}
+button{
+ font-size: 20px;
+ margin: 20px;
+ padding: 10px;
+}
+button:hover {
+ background: transparent;
+ color: aliceblue;
+ cursor: pointer;
+}
